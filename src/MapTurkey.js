@@ -58,7 +58,7 @@ export default class MapTurkey extends Component {
                 className="il-isimleri"
                 >
                 <div style={{textTransform:'capitalize'}}>
-                    {this.state.cityName}
+                    {this.state.cityName}, {this.state.cityCode}
                 </div>
             </div>
 
